@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.10 <<>> baidu.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 95
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;baidu.com.			IN	A
+
+;; ANSWER SECTION:
+baidu.com.		501	IN	A	110.242.68.66
+baidu.com.		501	IN	A	39.156.66.10
+
+;; Query time: 508 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Mon Oct 24 08:59:18 UTC 2022
+;; MSG SIZE  rcvd: 70
+
